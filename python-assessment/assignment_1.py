@@ -10,7 +10,7 @@ doc = fitz.open(path)
 #ADD PREFERRED PAGE NUMBER IN THE PARAMETER
 #NUMBER STARTS WITH 0
 #Change page number here
-page = doc.load_page(12) 
+page = doc.load_page(11) 
 
 #get text blocks from PDF
 block = page.get_text('blocks',sort = True)
