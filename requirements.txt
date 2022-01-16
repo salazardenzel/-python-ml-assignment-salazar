@@ -1,0 +1,8 @@
+# Requirements
+
+pandas : pip install pandas
+       : pip install xlwt #after installing pandas
+       : pip install openpyxl #after installing pandas
+xlsxwriter: pip install xlsxwriter #after installing pandas
+
+pymudf : python -m pip install --upgrade pymupdf
